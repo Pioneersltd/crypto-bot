@@ -3,6 +3,7 @@ from datetime import datetime
 
 import requests as requests
 
+from telegram import telegram_bot_sendtext
 from thresholds import sell_threshold
 
 
@@ -38,7 +39,6 @@ class execute_order:
         }
         self.orders.append(obj)
         print(f"purchasing {coin['name']}")
-        print(self.orders)
         with open('orders.json', 'w+') as f_obj:
             json.dump(self.orders, f_obj)
 

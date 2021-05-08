@@ -12,16 +12,19 @@ if __name__ == "__main__":
     # save_results(sorted_res[:10])
     # log_results()
 
-    # Buying coin
-    counter = 0
-    buyer = execute_order()
-    while (counter < 5):
-        print("here")
-        status = buyer.buy_coin()
-        if status or status == 0:
-            counter += status
-            continue
-        else:
-            print("breaking")
-            break
+    #Buying coin
+    # counter = 0
+    #counter needs to be length of orders
+    # buyer = execute_order()
+    # while (counter < 5):
+    #     print("here")
+    #     status = buyer.buy_coin()
+    #     if status or status == 0:
+    #         counter += status
+    #         continue
+    #     else:
+    #         print("breaking")
+    #         break
 
+    a = execute_order()
+    a.sell_coins()

@@ -4,8 +4,8 @@
     <list default="true" id="9146aae7-5d0d-495d-9cbd-0b2fc6e018c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/execute_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/execute_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/orders.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sell_coin.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/thresholds.py" beforeDir="false" afterPath="$PROJECT_DIR$/thresholds.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.scratch">
+  <component name="RunManager" selected="Python.main">
     <configuration name="execute_order" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="crypto-bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.scratch" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.scratch" />
         <item itemvalue="Python.execute_order" />
       </list>
     </recent_temporary>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620498086910</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="implementing sell coin">
+      <created>1620502251942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620502251942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -187,14 +194,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="execute order implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="execute order implemented" />
+    <MESSAGE value="implementing sell coin" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing sell coin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>17</line>
+          <line>18</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

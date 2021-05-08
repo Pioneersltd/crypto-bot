@@ -14,6 +14,11 @@ def telegram_bot_sendtext(bot_message):
 
 # TODO: Mo to loop through results and send 5 tokens to chatg
 
+msg = ""
 with open ("orders.json") as orders:
     orders = json.load(orders)
-    telegram_bot_sendtext(str(orders))
+
+    for item in orders:
+        msg += f"🚨 BUY {item['id']} at ${item['price']} 🚨\n"
+
+    telegram_bot_sendtext(msg)

@@ -10,3 +10,5 @@ if __name__ == "__main__":
     sorted_res = sort_results(results, key_price_change, key_ath_percentage, key_market_cap)
     save_results(sorted_res[:10])
     log_results()
+
+    #Buying coin

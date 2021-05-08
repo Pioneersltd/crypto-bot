@@ -4,9 +4,9 @@
     <list default="true" id="9146aae7-5d0d-495d-9cbd-0b2fc6e018c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/execute_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/execute_order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/orders.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sell_coin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thresholds.py" beforeDir="false" afterPath="$PROJECT_DIR$/thresholds.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.scratch">
     <configuration name="execute_order" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="crypto-bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.execute_order" />
       </list>
     </recent_temporary>
@@ -153,6 +153,14 @@
       <option name="presentableId" value="Default" />
       <updated>1620473994726</updated>
     </task>
+    <task id="LOCAL-00001" summary="execute order implemented">
+      <created>1620498086910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620498086910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -176,6 +184,10 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="execute order implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="execute order implemented" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

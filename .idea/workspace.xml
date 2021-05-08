@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9146aae7-5d0d-495d-9cbd-0b2fc6e018c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/execute_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orders.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orders.json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/execute_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/execute_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders.json" beforeDir="false" afterPath="$PROJECT_DIR$/orders.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results.json" beforeDir="false" afterPath="$PROJECT_DIR$/results.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/execute_order.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.execute_order">
+  <component name="RunManager" selected="Python.main">
     <configuration name="execute_order" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="crypto-bot" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,9 +135,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.execute_order" />
-        <item itemvalue="Python.scratch" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.execute_order" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +176,17 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/results.json">
